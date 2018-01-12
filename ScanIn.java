@@ -8,9 +8,9 @@ public class ScanIn {
 
         System.out.println("Please input a calculation to perform.\nPlease use format like: 'x.x + y.y' . For exponentiation please use 'p', for example:  4.5p3");
 
-        Scanner ScanIn = new Scanner(System.in);
+        Scanner scanIn = new Scanner(System.in);
 
-        String calculationAsString = ScanIn.nextLine();
+        String calculationAsString = scanIn.nextLine();
 
         return calculationAsString;
     }
